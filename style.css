@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital@1&display=swap');
+body {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: grey;
+}
+
+.container {
+width: 375px;
+height: 812px;
+background: white;
+}
+
+.wrapper {
+    height: 350px;
+    position: relative;
+}
+
+.ping {
+margin-top: 81px;
+margin-right: 159px;
+margin-left: 160px;
+}
+
+h1 {
+color: #969696;
+text-align: center;
+font-family: Libre Franklin;
+font-size: 22px;
+font-weight: 300;
+line-height: 32px; 
+margin-top: 32px;
+margin-right: 36px;
+margin-left: 37px;
+}
+
+span {
+color: #15202A;
+font-family: Libre Franklin;
+font-size: 22px;
+font-weight: 700;
+line-height: 32px;
+}
+
+h2 {
+color: #15202A;
+text-align: center;
+font-family: Libre Franklin;
+font-size: 12px;
+font-weight: 300;
+margin-top: 15px;
+margin-right: 114px;
+margin-left: 115px;
+}
+
+input {
+width: 281px;
+height: 40px;
+border-radius: 28px;
+border: 1px solid #C2D3FF;
+background: #FFF;
+box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.00);
+color: #B8C7ED;
+margin-top: 32px;
+margin-right: 46px;
+margin-left: 48px;
+}
+
+::placeholder {
+color: #B8C7ED;
+font-family: Libre Franklin;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: 20px;
+padding-right: 135px;
+padding-left: 32px;
+}
+
+button {
+width: 282px;
+height: 40px;
+border-radius: 28px;
+background: #4C7BF3;
+box-shadow: 0px 5px 10px 2px rgba(76, 123, 243, 0.23);
+margin-top: 10px;
+margin-right: 46px;
+margin-left: 47px;
+color: #FFF;
+text-align: center;
+font-family: Libre Franklin;
+font-size: 12px;
+font-weight: 600;
+line-height: 16px;
+}
+
+#errorMessage {
+color: #FF5466;
+font-family: Libre Franklin;
+font-size: 10px;
+font-style: italic;
+font-weight: 400;
+line-height: 20px; 
+letter-spacing: 0.125px;
+text-align: center;
+margin: auto;
+display: none;
+}
+
+.dashboard {
+width: 320px;
+height: 192px;
+margin-top: 42px;
+margin-right: 28px;
+margin-left: 27px;
+}
+
+.twiter{
+border: 1px solid rgb(76, 123, 243, 0.15);
+padding: 5px 6px;
+border-radius: 50%;
+}
+
+.facebook{
+    border: 1px solid rgb(76, 123, 243, 0.15);
+    padding: 5px 9px;
+    border-radius: 50%;
+}
+
+.instagram {
+    border: 1px solid rgb(76, 123, 243, 0.15);
+    padding: 5px 7px;
+    border-radius: 50%; 
+}
+
+.media {
+    margin-top: 120px;
+    margin-right: 128px;
+    margin-left: 128px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h4 {
+    color: #969696;
+    font-family: Libre Franklin;
+    font-size: 10px;
+    font-weight: 300;
+    margin-top: 27px;
+    margin-right: 103px;
+    margin-bottom: 37px;
+    margin-left: 103px;
+}
+
+
+@media screen and (min-width:1440px) {
+    .container {
+        width: 1440px;
+        height: 1024px;
+        background: white;
+        }
+
+    .ping {
+      margin-top: 80px;
+      margin-left: 675px;
+    }
+    h1 {
+        margin: auto;
+        width: 712px;
+        font-size: 48px;
+        margin-top: 40px;
+        margin-bottom: 16px;
+        line-height: 60px;
+        text-align: center;
+     }           
+    span {
+        font-size: 48px;
+        margin-top: 40px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    input {
+        width: 421px;
+        height: 56px;
+        margin: 40px 16px 0px 402px;
+    }
+    ::placeholder {
+        font-size: 16px;
+    }
+    button {
+        width: 200px;
+        height: 56px;
+        font-size: 16px;
+        cursor: pointer;
+        margin: 40px 0px 0px 0px;
+    }
+    #errorMessage {
+        font-size: 12px;
+        position: absolute;
+        margin-top: 6px;
+        margin-left: 432px;
+        
+        }
+    .dashboard {
+        width: 640px;
+        height: 383px;
+        margin: auto;
+        margin-top: 94px;
+        margin-left: 400px;
+    }
+    .media {
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 52px;
+    }
+    .twiter{
+        margin-right: 12px;
+        cursor: pointer;
+        }
+        
+    .facebook{
+            margin-right: 12px;
+            cursor: pointer;
+        }
+    .instagram {
+        cursor: pointer;
+    }    
+    h4 {
+        margin: auto;
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 49px;
+    }
+}
